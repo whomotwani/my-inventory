@@ -1,8 +1,8 @@
 export default {
-    inventory(state) {
-        return state.inventory;
-    },
-    shoppingList(state) {
-        return state.shoppingList;
-    }
+  inventory(state) {
+    return state.inventory
+  },
+  shoppingList(state) {
+    return state.shoppingList
+  }
 }

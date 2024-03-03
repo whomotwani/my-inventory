@@ -17,17 +17,17 @@ const router = createRouter({
       mode: history,
       children: [
         {
-          path: "/inventory",
-          name: "inventory",
+          path: '/inventory',
+          name: 'inventory',
           component: InventoryView
         },
         {
-          path: "/shoppinglist",
-          name: "shoppinglist",
+          path: '/shoppinglist',
+          name: 'shoppinglist',
           component: ShoppingListView
         }
       ]
-    },
+    }
   ]
 })
 
