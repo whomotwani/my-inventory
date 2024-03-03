@@ -1,4 +1,5 @@
-# todoer
+# My Inventory
+My Inventory is a web app to manage your personal inventory
 
 This template should help get you started developing with Vue 3 in Vite.
 

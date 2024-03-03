@@ -8,6 +8,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/inventory'
+    },
+    {
+      path: '/home',
       name: 'home',
       component: HomeView,
       mode: history,
